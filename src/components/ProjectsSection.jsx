@@ -6,8 +6,8 @@ const projects = [
     title: "AI Resume Analyser",
     description: "AI-powered resume screening tool using NLP to match resumes with job descriptions based on skill relevance.",
     image: "/projects/project1.png",
-    tags: ["Python", "NLP/TF-IDF", "Flask"],
-    githubUrl: "https://github.com/antriiksh/aiResumeAnalyser",
+    tags: ["ReactRouter", "Puter", "Node JS"],
+    githubUrl: "https://github.com/antriiksh/resumeAnalysisPuter",
   },
   {
     id: 2,
