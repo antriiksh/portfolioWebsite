@@ -16,7 +16,6 @@ const projects = [
       "Developed an unsupervised model using K-Means and PCA to cluster restaurants by cuisine, cost, and rating for improved recommendations.",
     image: "/projects/project2.png",
     tags: ["Python", "K-Means", "PCA", "Scikit-learn"],
-    demoUrl: "#",
     githubUrl: "https://github.com/antriiksh/zomatoClusteringMLSentimentAnalysis",
   },
   {
@@ -26,7 +25,6 @@ const projects = [
       "Full-featured e-commerce platform with user authentication and payment processing.",
     image: "/projects/project3.png",
     tags: ["SQL", "PowerBI", "Excel"],
-    demoUrl: "#",
     githubUrl: "https://github.com/antriiksh/AtliqGrandsHotelAnalysis",
   },
 ];
@@ -78,7 +76,6 @@ export const ProjectsSection = () => {
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
-                      <ExternalLink size={20} />
                     </a>
                     <a
                       href={project.githubUrl}
